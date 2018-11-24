@@ -4,9 +4,8 @@ import pandas
 import matplotlib.pyplot as plt
 import numpy
 
-data1 = pandas.read_csv("/home/vegeta/NIFTYDATA/01-01-2015-TO-01-03-2015TATAMOTORSALLN.csv")
+data = pandas.read_csv("/home/vegeta/NIFTYDATA/01-01-2015-TO-01-03-2015TATAMOTORSALLN.csv")
 
-data = data1.head(n = 20)
 
 date = data["Date"]
 
